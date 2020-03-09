@@ -1,0 +1,120 @@
+
+/* Transitions */
+
+@mixin transitionLine {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+@mixin transitionLineHover {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+@mixin transitionNone {
+-moz-transition: none;        
+  -webkit-transition: none;        
+  -o-transition: none;        
+  transition: none;
+}
+
+@mixin transitionAll {
+-moz-transition: all 0.2s ease-in;        
+  -webkit-transition: all 0.2s ease-in;        
+  -o-transition: all 0.2s ease-in;        
+  transition: all 0.2s ease-in;
+}
+
+@mixin transitionBackground {
+  -webkit-transition: background-color .25s ease-in-out;
+  -moz-transition: background-color .25s ease-in-out;
+  -ms-transition: background-color .25s ease-in-out;
+  -o-transition: background-color .25s ease-in-out;
+  transition: background-color .25s ease-in-out;
+}
+
+@mixin transitionOpacity {
+  -webkit-transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -ms-transition: opacity .25s ease-in-out;
+  -o-transition: opacity .25s ease-in-out;
+  transition: opacity .25s ease-in-out;
+}
+
+@mixin scale {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+@mixin transformScale {
+  -webkit-transition: -moz-transform .4s ease-out;
+  -moz-transition: -webkit-transform .4s ease-out;
+  -o-transition: -o-transform .4s ease-out;
+  transition: transform .4s ease-out;
+}
+
+@mixin transitionBoxShadow {
+  transition: box-shadow 0.2s linear;
+}
+
+/* bts */
+
+@mixin btPrimary {
+  background-color: $btPrimaryAColorHex;
+  background: -moz-linear-gradient(top, $btPrimaryAColor 1%, $btPrimaryBColor 100%);
+  background: -webkit-linear-gradient(top, $btPrimaryAColor 1%, $btPrimaryBColor 100%);
+  background: linear-gradient(to bottom, $btPrimaryAColor 1%, $btPrimaryBColor 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$btPrimaryAColorHex, endColorstr=$btPrimaryBColorHex,GradientType=1 );
+}
+
+@mixin btPrimaryHover {
+  background-color: $btPrimaryHoverColor;
+  background: -moz-linear-gradient(top, $btPrimaryHoverColor 1%, $btPrimaryBColor 100%);
+  background: -webkit-linear-gradient(top, $btPrimaryHoverColor 1%, $btPrimaryBColor 100%);
+  background: linear-gradient(to bottom, $btPrimaryHoverColor 1%, $btPrimaryBColor 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$btPrimaryHoverColorHex, endColorstr=$btPrimaryBColorHex,GradientType=1 );
+}
+
+@mixin btSecondary {
+  background: $btSecondaryAColor;
+  background: -moz-linear-gradient(top, $btSecondaryAColor 1%, $btSecondaryBColor 100%);
+  background: -webkit-linear-gradient(top, $btSecondaryAColor 1%, $btSecondaryBColor 100%);
+  background: linear-gradient(to bottom, $btSecondaryAColor 1%, $btSecondaryBColor 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$btSecondaryAColorHex, endColorstr=$btSecondaryBColorHex,GradientType=1 );
+}
+
+@mixin btSecondaryHover {
+  background-color: $btSecondaryHoverColor;
+  background: -moz-linear-gradient(top, $btSecondaryHoverColor 1%, $btSecondaryBColor 100%);
+  background: -webkit-linear-gradient(top, $btSecondaryHoverColor 1%, $btSecondaryBColor 100%);
+  background: linear-gradient(to bottom, $btSecondaryHoverColor 1%, $btSecondaryBColor 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$btSecondaryHoverColorHex, endColorstr=$btSecondaryBColorHex,GradientType=1 );
+}
+
+@mixin btActive {
+  background-color: $btActiveAColor;
+  background: -moz-linear-gradient(top, $btActiveAColor 1%, $btActiveBColor 100%);
+  background: -webkit-linear-gradient(top, $btActiveAColor 1%, $btActiveBColor 100%);
+  background: linear-gradient(to bottom, $btActiveAColor 1%, $btActiveBColor 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$btActiveAColorHex, endColorstr=$btActiveBColorHex,GradientType=1 );
+}
+
+
+/* Other */
+
+@mixin centerVertically {
+position: relative;
+top: 50%;
+transform: translateY(calc(-50%));
+}

@@ -1,0 +1,15 @@
+@media only screen and (min-width:640px){font-size:16px}body{font-family:Open Sans,Sans-serif !important;background:#fff !important}
+body a{color:#333}h1,h2,h3,h4{font-family:Exo,Open Sans,Sans-serif}h1{font-size:1.9em;line-height:.9em;text-transform:uppercase;font-weight:400}
+nav ul{margin:0;padding:0}nav ul,nav ul li{list-style:none}a.link--light{color:#333}
+a.link--light-active{color:#1967fe}a.navlink--button{font-family:Exo,Open Sans,Sans-serif;font-size:1.3em;font-weight:600;text-transform:uppercase;display:block}
+a.navlink--button i{font-size:1.2em !important;margin-top:-3px;margin-right:1rem}
+@media(min-width:991px){a.navlink--button{font-size:1.2em;padding:.5rem 1rem}a.navlink--button:hover{color:#1967fe}
+a.navlink--button i,a.navlink--button span{text-decoration:none;text-align:center;display:block;margin:0 auto}
+a.navlink--button span{padding-top:.75rem;white-space:nowrap}}a.navlink--button-active{font-weight:700}
+a.navlink--button-active:focus,a.navlink--button-active:hover{color:#1248b4 !important}
+@media(min-width:991px){a.navlink--button-active{color:#1248b4}}a.navlink--footer{font-size:1.1em}
+a.navlink--footer:focus,a.navlink--footer:hover{color:#1967fe;text-decoration:underline}
+a.navlink--footer-active{color:#1248b4;font-weight:700}a.navlink--footer-active:focus,a.navlink--footer-active:hover{color:#1248b4;text-decoration:none}
+a.navlink--panel-active{color:#1248b4;font-weight:600}a.navlink--panel-active:focus,a.navlink--panel-active:hover{color:#1248b4}
+body li,body p{font-size:1.1em}ul.list--content{padding-left:2rem;padding-right:2rem;margin:1.5rem 0}
+.margin--b0{margin-bottom:0 !important}

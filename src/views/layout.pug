@@ -1,0 +1,38 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Exo:300,400,600|Open+Sans:300,400,600,700&amp;subset=latin-ext')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css')
+    link(rel='stylesheet', href='/styles/main.min.css')
+  body
+    #app
+      header.Header
+        div(class='ui centered container grid')
+          div(class='four wide computer fourteen wide mobile ten wide tablet four wide widescreen column')
+            section.Header__Logo
+              a(class='active' href='/')
+                img(class='ui fluid image' src='/assets/images/cyberforce.png' alt='Cyberforce Framework Starter')
+          div(class='twelve wide computer sixteen wide mobile sixteen wide tablet twelve wide widescreen column')
+            nav.Header__Nav
+              ul
+                li
+                  a(class='navlink--button navlink--button-active' href='/') About us
+                li
+                  a(class='navlink--button navlink--button-active' href='/business') For Business
+                li
+                  a(class='navlink--button navlink--button-active' href='/startups') For Start-ups
+                li
+                  a(class='navlink--button navlink--button-active' href='/recruitment') For Recruitment
+                li
+                  a(class='navlink--button navlink--button-active' href='/contact') Contact
+        div.Layout
+          section.Masthead
+            div(class='Masthead__Header')
+              block mastheadHeader
+            div(class='Masthead__Bar')
+              block mastheadBar
+          main.Page
+            div(class='ui centered container grid')
+              section(class='Page__Content')
+              block content

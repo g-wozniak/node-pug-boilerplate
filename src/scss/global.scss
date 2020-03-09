@@ -1,0 +1,130 @@
+body {
+  font-family: $familyPrimary !important;
+  background: $wrapperBackground !important;
+  a {
+    color: $primary;
+  }
+}
+
+h1, h2, h3, h4 {
+  font-family: $familySecondary;
+}
+
+h1 { 
+  font-size: $fs_H1;
+  line-height: $flh_H1;
+  text-transform: uppercase;
+  font-weight: $fw_2_Normal;
+
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: none;
+  }
+}
+
+a.link--light {
+  color: $primary;
+  &-active {
+    color: $glow;
+  }
+}
+
+a.navlink--button {
+  font-family: $familySecondary;
+  font-size: $fs_L;
+  font-weight: $fw_1_Medium;
+  text-transform: uppercase;
+  display: block;
+
+  i {
+    font-size: $fs_M !important;
+    margin-top: -3px;
+    margin-right: $U;
+  }
+
+  @include computerPlus {
+    font-size: $fs_M;
+    padding: $u $U;
+
+    &:hover {
+      color: $hover;
+    }
+    
+    i {
+      text-decoration: none;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+    }
+    span {
+      padding-top: 0.75rem;
+      text-decoration: none;
+      text-align: center;
+      white-space: nowrap;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  &-active {
+    font-weight: $fw_1_Bold;
+    
+    &:hover, &:focus {
+      color: $active !important;
+    }
+
+    @include computerPlus {
+      color: $active;
+    }
+  }
+}
+
+a.navlink--footer {
+  font-size: $fs_Normal;
+
+  &:hover, &:focus {
+    color: $hover;
+    text-decoration: underline;
+  }
+
+  &-active {
+    color: $active;
+    font-weight: $fw_1_Bold;
+
+    &:hover, &:focus {
+      color: $active;
+      text-decoration: none;
+    }
+  }
+}
+
+a.navlink--panel-active {
+  color: $active;
+  font-weight: $fw_2_Bold;
+  
+  &:hover, &:focus {
+    color: $active;
+
+  }
+}
+
+body p,
+body li {
+  font-size: 1.1em;
+}
+
+ul.list--content {
+  padding-left: $UU;
+  padding-right: $UU;
+  margin: $Uu 0;
+}
+
+.margin--b0 {
+  margin-bottom: 0 !important;
+}

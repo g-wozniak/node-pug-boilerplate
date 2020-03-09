@@ -1,0 +1,87 @@
+$familyPrimary: 'Open Sans', Sans-serif;
+$familySecondary: 'Exo', 'Open Sans', Sans-serif;
+
+$wrapperBackground: #fff;
+$barBackground: #e1e1e1;
+$formHeaderBackground: #333;
+
+$panelBackground: #ccc;
+$innerBackground: #eee;
+$innerClearBackground: #d3d3d3;
+$errorBackground: #fff6f6;
+
+$borderLight: #e1e1e1;
+$borderActive: #c3c3c3;
+$borderRadius: 5px;
+
+$white: #fff;
+$primary: #333;
+$hover: #1967fe;
+$active: #1248b4;
+$activeDark: #111;
+$activeColor: #00b5ad;
+$activeLight: #a5c6ff;
+$disabled: #ccc;
+$lightDisabled: #595959;
+$grey: #474747;
+$placeholder: #a6a6a6;
+$glow: #1967fe;
+$error: #000000;
+$glowHighlight: #fff;
+
+$btPrimaryAColor: rgb(25, 103, 254);
+$btPrimaryAColorHex: #1967fe;
+$btPrimaryBColor: rgb(108,26,241);
+$btPrimaryBColorHex: #6C1AF1;
+$btPrimaryHoverColor: rgb(19, 83, 194);
+$btPrimaryHoverColorHex: #1353c2;
+$btPrimaryIcon: $activeLight;
+
+$btSecondaryAColor: rgba(0, 181, 173, 1);
+$btSecondaryAColorHex: #00b5ad;
+$btSecondaryBColor: rgba(0, 153, 145, 1);
+$btSecondaryBColorHex: #009991;
+$btSecondaryHoverColor: rgb(0, 204, 194);
+$btSecondaryHoverColorHex: #00ccc2;
+$btSecondaryIcon: #ddd;
+
+$btResetAColor: rgb(104, 104, 104);
+$btResetAColorHex: #686868;
+$btResetBColor: rgb(62, 71, 71);
+$btResetBColorHex: #3e4747;
+$btResetHoverColor: rgb(144, 144, 144);
+$btResetHoverColorHex: #909090;
+
+$btActiveAColor: rgb(25, 25, 25);
+$btActiveAColorHex: #1c1c1c;
+$btActiveBColor: rgb(0, 0, 0);
+$btActiveBColorHex: #000;
+
+$U: 1rem;
+$Uu: $U * 1.5;
+$UU: $U * 2;
+$UUU: $U * 3;
+$U4: $U * 4;
+$u: $U / 2;
+$_u: $u / 2;
+$u_font: $U / 3;
+
+$fs_H1: 1.9em;
+$flh_H1: 0.9em;
+
+$fs_XS: 0.8em;
+$fs_S: 0.9em;
+$fs_Placeholder: $fs_S;
+$fs_Normal: 1.1em;
+$fs_M: 1.2em;
+$fs_L: 1.3em;
+$fs_XL: 1.4em;
+$fw_1_Light: 300;
+$fw_1_Normal: 400;
+$fw_1_Medium: 600;
+$fw_1_Bold: 700;
+$fw_2_Light: 300;
+$fw_2_Normal: 400;
+$fw_2_Bold: 600;
+
+$inlinePadding: $Uu;
